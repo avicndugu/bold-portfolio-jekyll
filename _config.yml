@@ -3,7 +3,7 @@ title: Paradigm Shift by HTML5 UP
 tagline: Your Website Tagline
 url: https://avicndugu.github.io/bold-portfolio-jekyll/
 paginate: 3
-baseurl: ""
+baseurl: "/bold-portfolio-jekyll/"
 permalink: pretty
 
 # Gems
