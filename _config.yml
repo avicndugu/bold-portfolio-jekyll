@@ -1,16 +1,14 @@
 # Setup
-title: Paradigm Shift by HTML5 UP
-tagline: Your Website Tagline
-url: https://avicndugu.github.io/bold-portfolio-jekyll/
-paginate: 3
-baseurl: "/bold-portfolio-jekyll/"
-permalink: pretty
+title: "Paradigm Shift by HTML5 UP" # the name of your site, e.g. ACME Corp.
+url: "https://avicndugu.github.io/bold-portfolio-jekyll/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/bold-portfolio-jekyll/" # the subpath of your site, e.g. /blog
 
-# Gems
-plugins:
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-seo-tag
+sass:
+  sass_dir: _sass
+  style: compressed
+
+kramdown:
+  syntax_highlighter: rouge
 
 # Optimize Jekyll
 exclude:
@@ -21,18 +19,3 @@ exclude:
   - Gemfile.lock
   - LICENSE.md
   - README.md
-
-sass:
-  sass_dir: _sass
-  style: :compressed
-
-# Options
-
-# Specify the author for blog posts
-author:
-  name: Firstname secondname
-  url: https://https://twitter.com/_ndugu
-  email: authoremailaddress@gmail.com
-
-# Custom vars
-version: 3.0.0

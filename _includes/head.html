@@ -1,18 +1,6 @@
 <head>
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
-    {% else %}
-      {{ page.title }} &middot; {{ site.title }}
-    {% endif %}
-  </title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/assets/apple-touch-icon-precomposed.png' | relative_url }}">
-  <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
-        {% seo title=false %}
-	</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+</head>
