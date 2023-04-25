@@ -1,0 +1,10 @@
+title: "Duis sed adpiscing veroeros amet"
+p1: "<strong>Proin tempus feugiat</strong> sed varius enim lorem ullamcorper
+  dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper
+  dolore."
+buttons:
+  - text: "Get Started"
+    url: "#"
+    class: "primary"
+  - text: "Learn More"
+    url: "#"

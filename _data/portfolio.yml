@@ -1,0 +1,49 @@
+title: "Portfolio"
+text: "<strong>Integer mollis egestas</strong> nam maximus erat id euismod
+  egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam."
+projects:
+  - title: "Erat aliquam"
+    text:
+      "Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam
+      consequat, et lorem adipiscing sed dolor sit amet, consectetur amet do
+      eiusmod tempor incididunt ipsum suspendisse ultrices gravida."
+    details:
+      - thumbnail: "images/gallery/thumbs/01.jpg"
+        url: "images/gallery/fulls/01.jpg"
+        orientation: "landscape"
+      - thumbnail: "images/gallery/thumbs/02.jpg"
+        url: "images/gallery/fulls/02.jpg"
+      - thumbnail: "images/gallery/thumbs/03.jpg"
+        url: "images/gallery/fulls/03.jpg"
+      - thumbnail: "images/gallery/thumbs/04.jpg"
+        url: "images/gallery/fulls/04.jpg"
+        orientation: "landscape"
+
+  - title: "Nisl consequat"
+    text: "Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
+      aliquam sed facilisis ante interdum congue. Integer mollis, nisl amet
+      convallis, porttitor magna ullamcorper, amet mauris. Ut magna finibus
+      nisi nec lacinia ipsum maximus."
+    details:
+      - thumbnail: "images/gallery/thumbs/05.jpg"
+        url: "images/gallery/fulls/05.jpg"
+        orientation: "landscape"
+      - thumbnail: "images/gallery/thumbs/06.jpg"
+        url: "images/gallery/fulls/06.jpg"
+      - thumbnail: "images/gallery/thumbs/07.jpg"
+        url: "images/gallery/fulls/07.jpg"
+  - title: "Lorem gravida"
+    text: "Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat
+      tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper
+      dolore. ac varius enim lorem ullamcorper dolore. Proin aliquam
+      facilisis."
+    details:
+      - thumbnail: "images/gallery/thumbs/08.jpg"
+        url: "images/gallery/fulls/08.jpg"
+        orientation: "potrait"
+      - thumbnail: "images/gallery/thumbs/09.jpg"
+        url: "images/gallery/fulls/09.jpg"
+        orientation: "potrait"
+      - thumbnail: "images/gallery/thumbs/10.jpg"
+        url: "images/gallery/fulls/10.jpg"
+        orientation: "landscape"

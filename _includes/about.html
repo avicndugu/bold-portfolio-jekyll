@@ -1,19 +1,17 @@
 <section id="first">
+  {% if site.data.about.title %}
   <header>
-    <h2>Magna sed nullam nisl adipiscing</h2>
+    <h2>{{ site.data.about.title }}</h2>
   </header>
+  {% endif %}
   <div class="content">
-    <p>
-      <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing elit.
-      Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-      torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-      libero eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula
-      ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem
-      adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat
-      magna tempus, sed et lorem adipiscing.
-    </p>
+    {% if site.data.about.text %}
+    <p>{{ site.data.about.text }}</p>
+    {% endif %}
     <span class="image main">
-      <img src="images/pic02.jpg" alt="" />
+      {% if site.data.about.image %}
+      <img src="{{ site.data.about.image }}" alt="" />
+      {% endif %}
     </span>
   </div>
 </section>

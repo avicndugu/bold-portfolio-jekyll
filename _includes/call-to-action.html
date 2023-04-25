@@ -1,16 +1,25 @@
 <section>
   <header>
-    <h2>Duis sed adpiscing veroeros amet</h2>
+    <h2>{{ site.data.calltoaction.title }}</h2>
   </header>
   <div class="content">
-    <p>
-      <strong>Proin tempus feugiat</strong> sed varius enim lorem ullamcorper
-      dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper
-      dolore.
-    </p>
+    {% if site.data.calltoaction.p1 %}
+    <p>{{ site.data.calltoaction.p1 }}</p>
+    {% endif %}
     <ul class="actions">
-      <li><a href="#" class="button primary large">Get Started</a></li>
-      <li><a href="#" class="button large">Learn More</a></li>
+      {% for button in site.data.calltoaction.buttons %}
+      <li>
+        <a
+          href="{{ button.url }}"
+          class="button large
+                {% if button.class %}
+                    {{ button.class }}
+                {% endif %}"
+        >
+          {{ button.text }}
+        </a>
+      </li>
+      {% endfor %}
     </ul>
   </div>
 </section>

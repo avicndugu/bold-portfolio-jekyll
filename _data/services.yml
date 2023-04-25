@@ -1,0 +1,16 @@
+title: "Services"
+p1: "<strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum."
+list:
+  - title: Consequat tempus
+    icon: "solid fa-laptop"
+  - title: Etiam adipiscing
+    icon: "solid fa-bolt"
+  - title: Libero nullam
+    icon: "solid fa-signal"
+  - title: Blandit condimentum
+    icon: "solid fa-cog"
+  - title: Lorem ipsum dolor
+    icon: "solid fa-map-marker-alt"
+  - title: Nibh amet venenatis
+    icon: "solid fa-code"
+p2: "Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing."

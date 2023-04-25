@@ -1,0 +1,39 @@
+title: "Get in touch"
+text: "<strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum
+  primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis
+  sagittis."
+form:
+  name: "Name"
+  email: "Email"
+  message: "Message"
+  submit: "Send Message"
+email:
+  title: Email
+  text: "information@untitled.ext"
+phone:
+  title: Phone
+  text: "(000) 000-0000"
+location:
+  title: Address
+  text: "<span>1234 Somewhere Road, Nashville, TN 00000</span>"
+socials:
+  title: Elsewhere
+  list:
+    - label: Twitter
+      icon: "brands fa-twitter"
+      link: "#"
+    - label: Facebook
+      icon: "brands fa-facebook-f"
+      link: "#"
+    - label: Instagram
+      icon: "brands fa-instagram"
+      link: "#"
+    - label: LinkedIn
+      icon: "brands fa-linkedin-in"
+      link: "#"
+    - label: Github
+      icon: "brands fa-github"
+      link: "#"
+    - label: Codepen
+      icon: "brands fa-codepen"
+      link: "#"
